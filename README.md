@@ -5,3 +5,6 @@ It is possible that GitHub fails to display Jupyter Notebooks. Should such circu
 ## Part 2. Data
 ## Part 3. Outline
 ## Part 4. Steps
+Complete Code
+### Step 1. Preparation
+1.1. Import Library
