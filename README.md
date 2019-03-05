@@ -57,7 +57,7 @@ To estimate the ***Sales Rank*** of a specific fruit based on its ***Sales Volum
 - Compare the prediction with the actual results.
 - Tool: sklearn ```predict``` 
 
-## 3.4. Prediction
+### 3.4. Prediction
 - Put numbers into independent variables and get the dependent variable ***Sales Rank*** as the result.
 - Tool: pandas ```DataFrame```   
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sklearn ```predict```
