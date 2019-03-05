@@ -1,7 +1,10 @@
 # Machine Learning
 ## Notice
 It is possible that GitHub fails to display Jupyter Notebooks. Should such circumstances arise, please refer to ***Part 4. Steps*** listed below for code samples.
+
 ## Part 1. Objective
+To estimate the ***Sales Rank*** of a specific fruit based on its ***Sales Volume, Turnover, Cost, Gross Profit, and Gross Margin.***
+
 ## Part 2. Data
 
 | Rank  | Fruit_Type | Fruit_Name_ID | Fruit_Name        | Sales Volume | Turnover | Cost  | Gross Profit | Gross Margin | Supplier | 
