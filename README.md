@@ -18,7 +18,12 @@ To estimate the ***Sales Rank*** of a specific fruit based on its ***Sales Volum
 ## Part 3. Outline
 ### 3.1. Data Transformation
 - Create separate bins for different sales ranks.
-- Tool: pandas ```cut``` ```loc```
+### 3.1.1. Option 1: Categorization
+- Databins are classified as ***categorical*** data.
+- Tool: pandas ```cut``` 
+### 3.1.2. Option 2: Category Labeling
+- Databins are classified as ***numerical*** data.
+- Tool: pandas ```loc```
 
 ### 3.2. Data Splitting
 ### 3.2.1. Independent and Dependent Variable
@@ -29,9 +34,32 @@ To estimate the ***Sales Rank*** of a specific fruit based on its ***Sales Volum
 - Tool: sklearn ```model_selection```
 
 # 3.3. Model Selection
-### 3.3.1. Model Deployment
-- classification algorithm
+### 3.3.1. Data Transformation
+### 3.3.1.1. Option 1: Categorical data
+- Categorical data cannot be used for further analysis and therefore should be transformed into ***object*** property.
+- Tool: pandas ```astype```
+### 3.3.1.2. Option 2: Numerical data
+-  Data transformation will not be necessary.
 
+### 3.3.2. Model Deployment
+- Implement classification algorithms.
+- Tool: sklearn ```LogisticRegression``` ```LinearDiscriminantAnalysis``` ```KNeighborsClassifier``` ```DecisionTreeClassifier``` ```GaussianNB``` ```SVC```
+
+### 3.3.3. Model Evaluation
+- Evaluate model fits by focusing on ***predictive accuracy.***
+- Tool: sklearn ```model_selection.cross_val_score```
+
+### 3.3.4. Data Training
+- Fit the model to training data.
+- Tool: sklearn ```fit``` 
+
+### 3.3.5. Data Validation
+- Compare the prediction with the actual results.
+- Tool: sklearn ```predict``` 
+
+## 3.4. Prediction
+- Put numbers into independent variables and get the dependent variable ***Sales Rank*** as the result.
+- Tool: pandas ```DataFrame``` sklearn ```predict```
 
 ## Part 4. Steps
 Complete Code
