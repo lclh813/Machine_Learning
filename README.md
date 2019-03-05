@@ -63,6 +63,9 @@ To estimate the ***Sales Rank*** of a specific fruit based on its ***Sales Volum
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sklearn ```predict```
 
 ## Part 4. Steps
-[***Complete Code***](https://nbviewer.jupyter.org/github/lclh813/Machine_Learning/blob/master/6_CompleteCode.ipynb) 
-### Step 1. Preparation
-1.1. Import Library
+> [***Complete Code***](https://nbviewer.jupyter.org/github/lclh813/Machine_Learning/blob/master/6_CompleteCode.ipynb) 
+#### [Step 1. Preparation](https://nbviewer.jupyter.org/github/lclh813/Machine_Learning/blob/master/1_Preparation.ipynb)
+#### [Step 2. Data Transformation](https://nbviewer.jupyter.org/github/lclh813/Machine_Learning/blob/master/2_DataTransformation.ipynb)
+#### [Step 3. Data Splitting](https://nbviewer.jupyter.org/github/lclh813/Machine_Learning/blob/master/3_DataSplitting.ipynb)
+#### [Step 4. Model Selection](https://nbviewer.jupyter.org/github/lclh813/Machine_Learning/blob/master/4_ModelSelection.ipynb)
+#### [Step 5. Prediction](https://nbviewer.jupyter.org/github/lclh813/Machine_Learning/blob/master/5_Prediction.ipynb)
