@@ -63,7 +63,7 @@ To estimate the ***Sales Rank*** of a specific fruit based on its ***Sales Volum
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sklearn ```predict```
 
 ## Part 4. Steps
-#### Overview of Machine Learning
+### Overview of Machine Learning
 - The analysis will be conducted in accordance with the flow of ***blue arrows.*** 
 
 <br>
