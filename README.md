@@ -16,6 +16,23 @@ To estimate the ***Sales Rank*** of a specific fruit based on its ***Sales Volum
 | 50    | Grape      | GRAP001       | Golden Muscat     | 15           | 480      | 360   | 120          | 0.25         | Farm 4   |
 
 ## Part 3. Outline
+### 3.1. Data Transformation
+- Create separate bins for different sales ranks.
+- Tool: pandas ```cut``` ```loc```
+
+### 3.2. Data Splitting
+### 3.2.1. Independent and Dependent Variable
+- Specify ***independent and dependent variables.*** 
+- Tool: pandas ```iloc```
+### 3.2.2. Training and Validation Data
+- Split data into ***training and validation sets.***
+- Tool: sklearn ```model_selection```
+
+# 3.3. Model Selection
+### 3.3.1. Model Deployment
+- classification algorithm
+
+
 ## Part 4. Steps
 Complete Code
 ### Step 1. Preparation
