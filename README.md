@@ -22,10 +22,10 @@ To estimate the ***Sales Rank*** of a specific fruit based on its ***Sales Volum
 
 ### 3.2. Data Splitting
 ### 3.2.1. Independent and Dependent Variable
-- Specify ***independent and dependent variables.*** 
+- Specify independent and dependent variables.
 - Tool: pandas ```iloc```
 ### 3.2.2. Training and Validation Data
-- Split data into ***training and validation sets.***
+- Split data into training and validation sets.
 - Tool: sklearn ```model_selection```
 
 # 3.3. Model Selection
