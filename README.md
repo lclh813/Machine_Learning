@@ -67,7 +67,7 @@ To estimate the ***Sales Rank*** of a specific fruit based on its ***Sales Volum
 -  in accordance with the flow of ***blue arrows***.
 
 <br>
-<div align=center><img src="https://github.com/lclh813/Machine_Learning/blob/master/Pic/0_MachineLearingOverview.png"/></div>
+<div align=center><img src="https://github.com/lclh813/Machine_Learning/blob/master/0_MachineLearingOverview.png"/></div>
 <br>
 
 > [***Complete Code***](https://nbviewer.jupyter.org/github/lclh813/Machine_Learning/blob/master/6_CompleteCode.ipynb) 
