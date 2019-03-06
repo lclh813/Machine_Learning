@@ -64,7 +64,7 @@ To estimate the ***Sales Rank*** of a specific fruit based on its ***Sales Volum
 
 ## Part 4. Steps
 ### Overview of Machine Learning
-- The machine learning process will be following the flow of ***blue arrows.*** 
+- The machine learning process adopted by this analysis will be following the flow of ***blue arrows.*** 
 
 <br>
 <div align=center><img src="https://github.com/lclh813/Machine_Learning/blob/master/0_MachineLearningOverview.png"/></div>
