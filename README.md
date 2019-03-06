@@ -67,7 +67,7 @@ To estimate the ***Sales Rank*** of a specific fruit based on its ***Sales Volum
 - The machine learning process adopted by this analysis will be following the flow of ***blue arrows.*** 
 
 <br>
-<div align=center><img src="https://github.com/lclh813/Machine_Learning/blob/master/0_MachineLearningOverview.png"/></div>
+<div align=center><img src="https://github.com/lclh813/Machine_Learning/blob/master/Pic/4_MachineLearningOverview.png"/></div>
 <br>
 
 > [***Complete Code***](https://nbviewer.jupyter.org/github/lclh813/Machine_Learning/blob/master/6_CompleteCode.ipynb) 
