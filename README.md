@@ -33,7 +33,7 @@ To estimate the ***Sales Rank*** of a specific fruit based on its ***Sales Volum
 - Split data into training and validation sets.
 - Tool: sklearn ```model_selection```
 
-# 3.3. Model Selection
+### 3.3. Model Selection
 ### 3.3.1. Data Transformation
 ### 3.3.1.1. Option 1: Categorical data
 - Categorical data cannot be used for further analysis and therefore should be transformed into ***object*** property.
