@@ -37,35 +37,35 @@ To estimate the ***Sales Rank*** of a specific fruit based on its ***Sales Volum
 ### 3.3.1. Data Transformation
 ### 3.3.1.1. Option 1: Categorical data
 - Categorical data cannot be used for further analysis and therefore should be transformed into ***object*** property.
-- Tool: Python ```Package pandas``` ```astype```
+- Tool: Python pandas ```astype```
 ### 3.3.1.2. Option 2: Numerical data
 -  Data transformation will not be necessary.
 
 ### 3.3.2. Model Deployment
 - Implement classification algorithms.
-- Tool: Python ```Package sklearn```   
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+- Tool: Python sklearn
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 ```LogisticRegression``` ```LinearDiscriminantAnalysis``` ```KNeighborsClassifier```      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 ```DecisionTreeClassifier``` ```GaussianNB``` ```SVC```
 
 ### 3.3.3. Model Evaluation
 - Evaluate model fits by focusing on ***predictive accuracy.***
-- Tool: Python ```Package sklearn``` ```model_selection.cross_val_score```
+- Tool: Python sklearn ```model_selection.cross_val_score```
 
 ### 3.3.4. Data Training
 - Fit the model to training data.
-- Tool: Python ```Package sklearn``` ```fit``` 
+- Tool: Python sklearn ```fit``` 
 
 ### 3.3.5. Data Validation
 - Compare the prediction with the actual results.
-- Tool: Python ```Package sklearn``` ```predict``` 
+- Tool: Python sklearn ```predict``` 
 
 ### 3.4. Prediction
 - Put numbers into independent variables and get the dependent variable ***Sales Rank*** as the result.
-- Tool: Python ```Package pandas``` ```DataFrame```  
+- Tool: Python pandas```DataFrame```  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-```Package sklearn``` ```predict```
+sklearn ```predict```
 
 ## Part 4. Steps
 ### Overview of Machine Learning
