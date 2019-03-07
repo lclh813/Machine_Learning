@@ -55,7 +55,7 @@ To estimate the ***Sales Rank*** of a specific fruit based on its ***Sales Volum
 
 ### 3.3.5. Data Validation
 - Compare the prediction with the actual results.
-- Tool: Python sklearn ```predict``` 
+- Tool: Python sklearn ```predict``` ```accuracy_score``` 
 
 ### 3.4. Prediction
 - Put numbers into independent variables and get the dependent variable ***Sales Rank*** as the result.
