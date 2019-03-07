@@ -20,47 +20,47 @@ To estimate the ***Sales Rank*** of a specific fruit based on its ***Sales Volum
 - Create separate bins for different sales ranks.
 ### 3.1.1. Option 1: Categorization
 - Databins are classified as ***categorical*** data.
-- Tool: pandas ```cut``` 
+- Tool: Python pandas ```cut``` 
 ### 3.1.2. Option 2: Category Labeling
 - Databins are classified as ***numerical*** data.
-- Tool: pandas ```loc```
+- Tool: Python pandas ```loc```
 
 ### 3.2. Data Splitting
 ### 3.2.1. Independent and Dependent Variable
 - Specify independent and dependent variables.
-- Tool: pandas ```iloc```
+- Tool: Python pandas ```iloc```
 ### 3.2.2. Training and Validation Data
 - Split data into training and validation sets.
-- Tool: sklearn ```model_selection```
+- Tool: Python sklearn ```model_selection```
 
 ### 3.3. Model Selection
 ### 3.3.1. Data Transformation
 ### 3.3.1.1. Option 1: Categorical data
 - Categorical data cannot be used for further analysis and therefore should be transformed into ***object*** property.
-- Tool: pandas ```astype```
+- Tool: Python ```Package pandas``` ```astype```
 ### 3.3.1.2. Option 2: Numerical data
 -  Data transformation will not be necessary.
 
 ### 3.3.2. Model Deployment
 - Implement classification algorithms.
-- Tool: sklearn ```LogisticRegression``` ```LinearDiscriminantAnalysis``` ```KNeighborsClassifier``` ```DecisionTreeClassifier``` ```GaussianNB``` ```SVC```
+- Tool: Python ```Package sklearn``` ```LogisticRegression``` ```LinearDiscriminantAnalysis``` ```KNeighborsClassifier``` ```DecisionTreeClassifier``` ```GaussianNB``` ```SVC```
 
 ### 3.3.3. Model Evaluation
 - Evaluate model fits by focusing on ***predictive accuracy.***
-- Tool: sklearn ```model_selection.cross_val_score```
+- Tool: Python ```Package sklearn``` ```model_selection.cross_val_score```
 
 ### 3.3.4. Data Training
 - Fit the model to training data.
-- Tool: sklearn ```fit``` 
+- Tool: Python ```Package sklearn``` ```fit``` 
 
 ### 3.3.5. Data Validation
 - Compare the prediction with the actual results.
-- Tool: sklearn ```predict``` 
+- Tool: Python ```Package sklearn``` ```predict``` 
 
 ### 3.4. Prediction
 - Put numbers into independent variables and get the dependent variable ***Sales Rank*** as the result.
-- Tool: pandas ```DataFrame```   
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sklearn ```predict```
+- Tool: Python ```Package pandas``` ```DataFrame```   
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ```Package sklearn``` ```predict```
 
 ## Part 4. Steps
 ### Overview of Machine Learning
