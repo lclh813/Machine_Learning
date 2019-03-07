@@ -44,9 +44,9 @@ To estimate the ***Sales Rank*** of a specific fruit based on its ***Sales Volum
 ### 3.3.2. Model Deployment
 - Implement classification algorithms.
 - Tool: Python ```Package sklearn```   
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 ```LogisticRegression``` ```LinearDiscriminantAnalysis``` ```KNeighborsClassifier```      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
 ```DecisionTreeClassifier``` ```GaussianNB``` ```SVC```
 
 ### 3.3.3. Model Evaluation
@@ -63,8 +63,8 @@ To estimate the ***Sales Rank*** of a specific fruit based on its ***Sales Volum
 
 ### 3.4. Prediction
 - Put numbers into independent variables and get the dependent variable ***Sales Rank*** as the result.
-- Tool: Python ```Package pandas``` ```DataFrame```   
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  
+- Tool: Python ```Package pandas``` ```DataFrame```
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 ```Package sklearn``` ```predict```
 
 ## Part 4. Steps
